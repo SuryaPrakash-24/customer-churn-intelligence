@@ -1,0 +1,34 @@
+# Data files — add your own CSVs; do not commit to version control
+app/data/
+*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Streamlit cache
+.streamlit/
+
+# IDE / OS
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+
+# Jupyter (if any exploratory notebooks are added locally)
+.ipynb_checkpoints/
+*.ipynb
